@@ -1,0 +1,33 @@
+name: demo
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.1
+  google_maps_flutter: ^2.0.10
+  google_maps_flutter_web: ^0.3.1
+  dio: ^4.0.0
+  flutter_polyline_points: ^1.0.0
+  equatable: ^2.0.3
+  dartz: ^0.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+      - images/calendar_office_day_1474.png
+      - images/route_icon_129308.png
